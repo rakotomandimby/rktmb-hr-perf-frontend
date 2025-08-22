@@ -38,6 +38,6 @@ jobs:
             password: ${{ secrets.SFTP_PASSWORD }}
             port: 22
             local_path: code/dist/*
-            remote_path: /
-            delete_remote_files: false
+            remote_path: /home/mrktmbc/rktmb-hr-perf-frontend
+            delete_remote_files: true 
 
